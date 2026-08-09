@@ -29,7 +29,7 @@ export function Hero() {
           </h1>
           
           <p className="text-lg md:text-xl text-slate-600 leading-relaxed mb-10 max-w-lg">
-            Experienced medical guidance for children and families in Gamber and Okara. Dedicated to professional assessment and thoughtful child-centered care.
+            Experienced medical guidance for children and families in Okara. Dedicated to professional assessment and thoughtful child-centered care.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-10">
@@ -84,7 +84,7 @@ export function Hero() {
           />
           <div className="absolute top-10 right-10 bg-white/90 backdrop-blur p-4 rounded-2xl border border-slate-200 shadow-xl z-20 max-w-[200px] hidden md:block">
             <p className="text-xs font-bold text-blue-900 mb-1">Clinic Location</p>
-            <p className="text-[11px] text-slate-600 leading-tight mb-3">Adda Gamber Clinic, District Okara. Serving the community for 2 decades.</p>
+            <p className="text-[11px] text-slate-600 leading-tight mb-3">AI Shifa Children and Maternity Home, Okara. Serving the community for 2 decades.</p>
             <a href={DOCTOR_INFO.mapUrl} target="_blank" rel="noopener noreferrer" className="text-[10px] font-bold text-blue-600 flex items-center hover:underline">
               GET DIRECTIONS <span className="ml-1">→</span>
             </a>

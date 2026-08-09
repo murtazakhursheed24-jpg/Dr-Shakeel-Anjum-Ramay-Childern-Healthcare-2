@@ -8,7 +8,7 @@ const REASONS = [
   "Compassionate Approach",
   "Easy Appointment Booking",
   "Direct WhatsApp & Phone Contact",
-  "Convenient Adda Gamber Location"
+  "Convenient Clinic Location"
 ];
 
 export function WhyChooseUs() {

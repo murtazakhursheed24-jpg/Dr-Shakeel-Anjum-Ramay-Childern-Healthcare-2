@@ -16,7 +16,7 @@ export function Location() {
               </div>
               
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 leading-tight">
-                Conveniently Located in {DOCTOR_INFO.location}
+                Conveniently Located in Okara
               </h2>
               
               <p className="text-slate-600 text-lg mb-10 leading-relaxed max-w-md">
@@ -30,7 +30,10 @@ export function Location() {
                   </div>
                   <div>
                     <h4 className="font-bold text-sm text-slate-900 mb-1">Clinic Address</h4>
-                    <p className="text-slate-600 text-sm">{DOCTOR_INFO.location}, Punjab, Pakistan</p>
+                    <p className="text-slate-600 text-sm">
+                      AI Shifa Children and Maternity Home<br />
+                      Okara, Pakistan
+                    </p>
                   </div>
                 </div>
                 

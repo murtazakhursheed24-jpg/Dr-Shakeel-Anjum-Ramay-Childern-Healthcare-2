@@ -10,8 +10,8 @@ export function About() {
           
           <div className="relative order-2 lg:order-1 flex items-center justify-center p-8 bg-blue-50 border border-slate-200 rounded-xl">
             <img 
-              src={IMAGES.gallery[0]} 
-              alt={`Dr. Shakeel Anjum Ramay with patient`} 
+              src="https://i.ibb.co/ZpbpfH3v/Whats-App-Image-2026-08-09-at-10-08-54-PM.jpg" 
+              alt={`Dr. Shakeel Anjum Ramay`} 
               className="relative z-10 w-full h-auto rounded-lg shadow-sm object-cover"
               loading="lazy"
             />
@@ -25,7 +25,7 @@ export function About() {
               Meet {DOCTOR_INFO.name}
             </h2>
             <p className="text-lg text-slate-600 leading-relaxed">
-              Dr. Shakeel Anjum Ramay is an experienced medical practitioner providing child healthcare services to families in Gamber and Okara. With more than 20 years of experience in treating children's diseases, his approach focuses on professional assessment, thoughtful medical guidance and compassionate care for children and their families.
+              Dr. Shakeel Anjum Ramay is an experienced medical practitioner providing child healthcare services to families in Okara. With more than 20 years of experience in treating children's diseases, his approach focuses on professional assessment, thoughtful medical guidance and compassionate care for children and their families.
             </p>
             
             <div className="mt-4 space-y-4">

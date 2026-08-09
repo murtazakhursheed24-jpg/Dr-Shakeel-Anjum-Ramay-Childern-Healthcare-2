@@ -13,7 +13,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white tracking-widest uppercase">{DOCTOR_INFO.name}</h3>
             <p className="text-slate-400 text-sm leading-relaxed pr-4">
-              Experienced Child Healthcare in Gamber & Okara. Compassionate care backed by over 20 years of experience.
+              Experienced Child Healthcare in Okara. Compassionate care backed by over 20 years of experience.
             </p>
           </div>
           
