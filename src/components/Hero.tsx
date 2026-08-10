@@ -76,7 +76,10 @@ export function Hero() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="lg:col-span-5 relative flex items-end justify-center bg-blue-100 border-l border-slate-200 min-h-[500px]"
         >
-          <img 
+          <motion.img 
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
             src={IMAGES.hero} 
             alt={`Portrait of ${DOCTOR_INFO.name}`} 
             className="h-[90%] w-auto object-contain z-10"
@@ -84,7 +87,7 @@ export function Hero() {
           />
           <div className="absolute top-10 right-10 bg-white/90 backdrop-blur p-4 rounded-2xl border border-slate-200 shadow-xl z-20 max-w-[200px] hidden md:block">
             <p className="text-xs font-bold text-blue-900 mb-1">Clinic Location</p>
-            <p className="text-[11px] text-slate-600 leading-tight mb-3">AI Shifa Children and Maternity Home, Okara. Serving the community for 2 decades.</p>
+            <p className="text-[11px] text-slate-600 leading-tight mb-3">Al Shifa Children and Maternity Home, Gamber. Serving the community for 2 decades.</p>
             <a href={DOCTOR_INFO.mapUrl} target="_blank" rel="noopener noreferrer" className="text-[10px] font-bold text-blue-600 flex items-center hover:underline">
               GET DIRECTIONS <span className="ml-1">→</span>
             </a>

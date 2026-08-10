@@ -49,8 +49,7 @@ export function VideoSection() {
               </div>
               
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-sm font-bold text-slate-900 mb-2 line-clamp-1 uppercase tracking-wide">{video.title}</h3>
-                <p className="text-slate-600 text-xs mb-6 line-clamp-2 flex-grow leading-relaxed">{video.description}</p>
+                <h3 className="text-sm font-bold text-slate-900 mb-6 line-clamp-1 uppercase tracking-wide flex-grow">{video.title}</h3>
                 
                 <div className="flex items-center gap-3 mt-auto">
                   <button 
@@ -103,8 +102,7 @@ export function VideoSection() {
                   ></iframe>
                 </div>
                 
-                <div className="flex justify-between items-center bg-white/10 p-4 rounded-xl">
-                  <p className="text-slate-300">{activeVideo.description}</p>
+                <div className="flex justify-end items-center bg-white/10 p-4 rounded-xl">
                   <a 
                     href={activeVideo.directUrl}
                     target="_blank"
