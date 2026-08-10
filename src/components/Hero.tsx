@@ -82,7 +82,7 @@ export function Hero() {
             transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
             src={IMAGES.hero} 
             alt={`Portrait of ${DOCTOR_INFO.name}`} 
-            className="h-[90%] w-auto object-contain z-10"
+            className="absolute inset-0 w-full h-full object-contain p-4 md:p-8 z-10"
             fetchPriority="high"
           />
           <div className="absolute top-10 right-10 bg-white/90 backdrop-blur p-4 rounded-2xl border border-slate-200 shadow-xl z-20 max-w-[200px] hidden md:block">

@@ -17,7 +17,7 @@ export const DOCTOR_INFO = {
 };
 
 export const IMAGES = {
-  hero: "https://i.ibb.co/HLTg7YY6/Whats-App-Image-2026-08-10-at-7-40-21-AM.jpg",
+  hero: "https://i.ibb.co/Fkp4CNhp/Whats-App-Image-2026-08-10-at-9-22-02-AM.jpg",
   gallery: [
     "https://i.ibb.co/yFHBypxN/Whats-App-Image-2026-08-09-at-8-18-08-AM.jpg",
     "https://i.ibb.co/N28MZMgd/Whats-App-Image-2026-08-09-at-8-18-19-AM.jpg",
